@@ -9,7 +9,7 @@ def subtract(a,b):
 
 #multiply
 def multiply(a,b):
-	return a*b
+	return a+b
 
 #divide
 def divide(a,b):
