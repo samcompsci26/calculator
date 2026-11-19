@@ -8,12 +8,21 @@ def subtract(a,b):
 	return a-b
 
 #multiply
-def  multiply(a,b):
+def multiply(a,b):
 	return a*b
 
 #divide
 def divide(a,b):
 	return a/b
+
+#calculate circle area
+def circle_area(r):
+	if r >= 0:
+		return 3.14*r**2
+	else:
+		return "NaN"
+
+
 
 def main():
 	while True:

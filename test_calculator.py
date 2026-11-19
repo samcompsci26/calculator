@@ -1,4 +1,4 @@
-from calculator import add,subtract,multiply,divide
+from calculator import add,subtract,multiply,divide,circle_area
 
 def test_add(): #arrange is 2,3 being input, act and assert are being combined into one line on the function
     assert add(2,3) == 5
@@ -19,3 +19,7 @@ def test_divide_uneven():
     result = divide(a,b)
     #assert
     assert result == 5.5
+
+def test_circle_area():
+    assert circle_area(-4) == "Error"
+
